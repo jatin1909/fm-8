@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;600&family=Karla:wght@400;700&display=swap');
+
+*{
+	padding: 0; margin:0;
+	font-family: 'Bai Jamjuree', sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+html{
+	scroll-behavior: smooth;
+}  
+
+body{
+
+}
+
+section{
+	padding: 10px 2%;
+	padding-top: 100px;
+}
+
+.container-1{
+	background-image: url('images/bg-header-desktop.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  
+}
+.box{
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	padding: 20px 23%;
+	
+}
+
+.box h1{
+  padding-top: 30px;
+  color:  hsl(210, 10%, 33%);
+}
+
+.box p{
+	color: hsl(201, 11%, 66%);
+	padding-top: 50px;
+	line-height: 1.7;
+	font-size: 15px;
+}
+.box button{
+	margin-right: 10px;
+}
+
+.box .btn-1{
+	padding: 12px 6%;
+	margin-top: 30px;
+	font-size: 13px;
+	background: hsl(171, 66%, 44%);
+	border: none;
+	border-radius: 25px;
+	color: white;
+	box-shadow: 1px 5px 20px rgba(0,0,0,.3);
+	cursor: pointer;
+
+}
+
+.box .btn-2{
+	padding: 12px 6%;
+	margin-top: 30px;
+	font-size: 13px;
+	background:  hsl(201, 11%, 66%);
+	border: none;
+	border-radius: 25px;
+	color: white;
+	box-shadow: 1px 5px 20px rgba(0,0,0,.3);
+	cursor: pointer;
+
+}
+
+.about .content .box{
+	padding: 10px 19%;
+}
+
+.info{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+}
+
+
+.info .image{
+	flex: 1 1 40rem;
+}
+
+.info .image img{
+	width: 100%;
+}
+
+.info .content{
+	flex: 1 1 40rem;
+	padding: 0 9%;
+	padding-top: 40px;
+	
+}
+
+.info .content .a{
+	margin-bottom: 13px;
+}
+
+.info .content .a h2{
+	color:  hsl(210, 10%, 33%);
+	margin-bottom: 5px;
+}
+
+.info .content .a p{
+	color:  hsl(201, 11%, 66%);
+	margin-bottom: 10px;
+	line-height: 2;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.info .content .b{
+	margin-bottom: 13px;
+}
+
+.info .content .b h2{
+	color:  hsl(210, 10%, 33%);
+	margin-bottom: 5px;
+}
+
+.info .content .b p{
+	color:  hsl(201, 11%, 66%);
+	margin-bottom: 10px;
+	line-height: 2;
+	font-size: 14px;
+	margin-bottom: 40px;
+
+
+}
+
+.info .content .c{
+	margin-bottom: 13px;
+}
+
+.info .content .c h2{
+	color:  hsl(210, 10%, 33%);
+	margin-bottom: 5px;
+}
+
+.info .content .c p{
+	color:  hsl(201, 11%, 66%);
+	margin-bottom: 10px;
+	line-height: 2;
+	font-size: 14px;
+	margin-bottom: 40px;
+
+}
+
+.access .content .box{
+	padding: 10px 20%;
+}
+
+.device .img{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.device img{
+	width: 50%;
+}
+
+.workflow .content p{
+	margin-top: -30px;
+}
+
+.fea .feature{	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	gap:15px;
+
+}
+
+.feature .box-2{
+	padding: 10px 4%;
+	flex: 1 1 20rem;
+	text-align: center;
+}
+
+.fea .feature .box-2 .image-1{
+	margin-bottom: 30px;
+}
+
+.fea .feature .box-2 h3{
+	color:  hsl(210, 10%, 33%);
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.fea .feature .box-2 p{
+	color:  hsl(201, 11%, 66%);
+	font-size: 14px;
+	line-height: 2;
+}
+
+.banner{
+	padding-top: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	gap:80px;
+	justify-content: center;
+	align-content: space-around;
+	margin-bottom: 70px;
+}
+
+.banner .image{
+	flex: 1 1 10rem;
+
+}
+
+.footer{
+	margin-top: 80px;
+	background: rgb(232,232,232);
+	padding-top: 13px;
+}
+
+.footer .container{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+	justify-content: center;
+}
+
+.footer .container .box-3{
+	padding:10px 4%;
+	flex: 1 1 10rem;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.footer .container .image{
+	padding-top: 20px;
+}
+
+
+.footer .container .image img{
+	width: 45%;
+}
+
+.footer .container .box-3 a{
+	display: block;
+	margin: 20px 0;
+	color:  hsl(201, 11%, 66%);
+}
+
+ 
+.footer .container .box-4{
+	padding: 20px 6%;
+	margin: 10px 0;
+    margin-top: 20px;
+}
+
+.footer .container .box-4 a{
+	margin-right: 15px;
+}
+
+.footer .container .box-4 i{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
